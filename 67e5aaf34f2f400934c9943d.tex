@@ -1,0 +1,231 @@
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{hyphenat}
+\usepackage{fontawesome}
+\input{glyphtounicode}
+
+
+%---------- FONT OPTIONS ----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+
+\newcommand{\resumeSubSubheading}[2]{
+    \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+
+\newcommand{\resumeEducationHeading}[6]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+      \textit{\small#5} & \textit{\small #6} \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+
+\newcommand{\resumeProjectHeading}[2]{
+    \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & #2 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+
+\newcommand{\resumeOrganizationHeading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & \textit{\small #2} \\
+      \textit{\small#3}
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+
+
+%---------- HEADING ----------
+
+\begin{center}
+    \textbf{\Huge \scshape Riya Singh} \\ \vspace{3pt}
+    \small
+    \faMobile \hspace{.5pt} {+91 9760989760}
+    $|$
+    \faAt \hspace{.5pt} \href{mailto:riyasingh52109@gmail.com}{riyasingh52109@gmail.com}
+    $|$
+    \faLinkedinSquare \hspace{.5pt} \href{https://www.linkedin.com/in/riya-singh-b27b48228}{LinkedIn}
+    $|$
+    \faGithub \hspace{.5pt} \href{https://github.com/RIYA-Singh21}{Github}
+    $|$
+    
+\end{center}
+
+
+
+%----------- EDUCATION -----------
+
+\section{Education}
+  \vspace{3pt}
+  \resumeSubHeadingListStart
+
+  
+\resumeSubheading
+{Vellore Institute of Technology (VIT Vellore)
+}{Vellore, India}
+{Bachelor of Technology in Information Technology;   \textbf{CGPA: 8.43/10}}{Sep. 2021 \textbf{--} Jul. 2025}
+
+
+  \resumeSubHeadingListEnd
+
+
+%----------- EXPERIENCE -----------
+
+\section{Experience}
+  \vspace{3pt}
+  \resumeSubHeadingListStart
+
+  
+\resumeSubheading
+      {IFFCO}{}
+      {Instrumentation Intern}{Aug. 2023 \textbf{--} Sep. 2023}
+      \resumeItemListStart
+      \resumeItem{Gained hands-on experience in database management and data analysis.}\resumeItem{Used SQL to extract, process, and analyze industrial process data, optimizing automation workflows.}\resumeItem{Assisted in converting and structuring sensor data for efficiency improvement reports.}
+        \resumeItemListEnd
+
+
+  \resumeSubHeadingListEnd
+
+
+
+%----------- PROJECTS -----------
+
+\section{Projects}
+  \vspace{3pt}
+  \resumeSubHeadingListStart
+
+  
+\resumeProjectHeading
+{\textbf{Brain Tumor Classification —} $|$ \underline{\emph{\href{}{GitHub}}} } {}
+      \resumeItemListStart
+      \resumeItem{• Developed an advanced deep learning model for MRI-based brain tumor classification and segmentation.}\resumeItem{• Utilized EfficientNetB0 for precise tumor classification and ResUNet for accurate tumor segmentation.}\resumeItem{• Implemented data augmentation and optimization techniques to enhance model robustness.}\resumeItem{• Achieved 99.4\% accuracy, 0.92 precision, and 0.91 F1 score.}
+        \resumeItemListEnd
+
+\resumeProjectHeading
+{\textbf{Movie App} $|$ \underline{\emph{\href{}{GitHub}}} } {}
+      \resumeItemListStart
+      \resumeItem{• Built with React.js for the user interface, Appwrite for the trending movies algorithm, and styled with TailwindCSS.}\resumeItem{• Developed a sleek and modern user interface for browsing and discovering movies.}\resumeItem{• Integrated Appwrite to implement a trending movies algorithm, enhancing content discoverability.}
+        \resumeItemListEnd
+
+\resumeProjectHeading
+{\textbf{Tunester} $|$ \underline{\emph{\href{}{GitHub}}} } {}
+      \resumeItemListStart
+      \resumeItem{• Developed a web-based music streaming platform replicating Spotify’s core functionalities.}\resumeItem{• Designed a responsive UI with seamless playback, track discovery, and playlist creation features.}\resumeItem{• Optimized client-side performance for smooth transitions and an immersive experience.}
+        \resumeItemListEnd
+
+
+  \resumeSubHeadingListEnd
+
+
+
+%----------- SKILLS -----------
+
+\section{Skills}
+  \vspace{2pt}
+  \resumeSubHeadingListStart
+    \small{\item{
+
+  
+    \textbf{• Programming Languages: :}{  C/C++, Python,Java,SQL} \ \vspace{3pt}
+
+    \textbf{• Web Development::}{ HTML, CSS, JavaScript, ReactJs, Express.js, Node.js, PostgreSQL, MongoDB, SQLite} \ \vspace{3pt}
+
+    \textbf{• Other Tools::}{ MATLAB, SIMULINK, Git/GitHub, Data Structures and Algorithms} \ \vspace{3pt}
+
+}}
+\resumeSubHeadingListEnd
+
+
+%-------------------------------------------
+\end{document}
