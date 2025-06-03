@@ -1,0 +1,299 @@
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{hyphenat}
+\usepackage{fontawesome}
+\input{glyphtounicode}
+
+
+%---------- FONT OPTIONS ----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+
+\newcommand{\resumeSubSubheading}[2]{
+    \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+
+\newcommand{\resumeEducationHeading}[6]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+      \textit{\small#5} & \textit{\small #6} \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+
+\newcommand{\resumeProjectHeading}[2]{
+    \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & #2 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+
+\newcommand{\resumeOrganizationHeading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & \textit{\small #2} \\
+      \textit{\small#3}
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+
+
+%---------- HEADING ----------
+
+\begin{center}
+    \textbf{\Huge \scshape Akansha Kumari} \\ \vspace{3pt}
+    \small
+    \faMobile \hspace{.5pt} {8050208662}
+    $|$
+    \faAt \hspace{.5pt} \href{mailto:akskum110@gmail.com}{akskum110@gmail.com}
+    $|$
+    \faLinkedinSquare \hspace{.5pt} \href{https://www.linkedin.com/in/akansha-kumari-9852b1282?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app}{LinkedIn}
+    $|$
+    
+    $|$
+    
+\end{center}
+
+
+
+%----------- EDUCATION -----------
+
+\section{Education}
+  \vspace{3pt}
+  \resumeSubHeadingListStart
+
+  
+\resumeSubheading
+{Atria Institute of Technology
+}{Bangalore, India}
+{Bachelor of Engineering (B.E.)  in Information Science and Engineering;   \textbf{CGPA: 8.0/10.0}}{oct 2021 \textbf{--} may 2025}
+
+
+  \resumeSubHeadingListEnd
+
+
+%----------- EXPERIENCE -----------
+
+\section{Experience}
+  \vspace{3pt}
+  \resumeSubHeadingListStart
+
+  
+\resumeSubheading
+      {Rooman Technologies }{Bengaluru, INDIA}
+      {AI DEVOPS Intern  }{September 2024 \textbf{--} January 2025}
+      \resumeItemListStart
+      \resumeItem{Gained foundational knowledge of DevOps practices, including CI/CD pipelines and Docker.
+Automated software workflows and containerized AI models for deployment.
+Collaborated effectively in team settings, engaging in peer code reviews.
+Completed mini-project involving AI model deployment using Flask and Docker.
+
+}
+        \resumeItemListEnd
+
+\resumeSubheading
+      {Varcons Technologies }{Bengaluru, INDIA}
+      {UI/UX design Intern}{October 2023  \textbf{--}  December 2023}
+      \resumeItemListStart
+      \resumeItem{Acquired practical knowledge of UI/UX design principles, user-centered design, wireframing, and prototyping.
+Designed user interfaces for real-world projects utilizing Figma and Adobe XD.
+
+}
+        \resumeItemListEnd
+
+\resumeSubheading
+      {Karunadu Technologies }{Bengaluru, INDIA}
+      {Intern    }{October 2022  \textbf{--}  November 2022}
+      \resumeItemListStart
+      \resumeItem{Executed real-world machine learning project utilizing Python and libraries like Pandas and NumPy.
+Collected, cleaned, and analyzed datasets in preparation for model training.
+Constructed and trained ML models employing classification and regression algorithms such as Decision Tree and Random Forest.
+}
+        \resumeItemListEnd
+
+
+  \resumeSubHeadingListEnd
+
+
+
+%----------- PROJECTS -----------
+
+\section{Projects}
+  \vspace{3pt}
+  \resumeSubHeadingListStart
+
+  
+\resumeProjectHeading
+{\textbf{Improving deployment speed and reducing production issues with devops practices} $|$ \underline{\emph{\href{}{GitHub}}} } {}
+      \resumeItemListStart
+      \resumeItem{Implemented DevOps methodologies to streamline the software delivery lifecycle.
+
+Automated build, test, and deployment using CI/CD tools (Jenkins, GitHub Actions).
+
+Used Docker and Kubernetes for containerization and orchestration.
+
+Set up monitoring and alerting with Prometheus and Grafana.
+
+}
+        \resumeItemListEnd
+
+\resumeProjectHeading
+{\textbf{ UI Design for E-Commerce Website} $|$ \underline{\emph{\href{}{GitHub}}} } {}
+      \resumeItemListStart
+      \resumeItem{Designed responsive UI using modern UI/UX principles.
+
+Created wireframes and prototypes with Figma/Adobe XD.
+
+Built frontend with HTML, CSS, JavaScript}
+        \resumeItemListEnd
+
+\resumeProjectHeading
+{\textbf{Firesphere 360: Autonomous Fire Extinguisher} $|$ \underline{\emph{\href{}{GitHub}}} } {}
+      \resumeItemListStart
+      \resumeItem{Built a 360° autonomous fire extinguisher system with real-time detection and suppression.
+
+Used flame, smoke, and temperature sensors with Arduino/Raspberry Pi for control.
+
+Designed rotating base and automated nozzle for full-area coverage.
+
+Enhanced fire safety with minimal human intervention for industrial/residential use.
+
+}
+        \resumeItemListEnd
+
+
+  \resumeSubHeadingListEnd
+
+
+
+%----------- AWARDS & ACHIEVEMENTS -----------
+
+\section{Awards \& Achievements}
+  \vspace{2pt}
+  \resumeItemListStart
+  \resumeItem{Winner – Social Connect and Responsibilities (SCR) Initiative
+ }
+  \resumeItemListEnd
+
+
+%----------- SKILLS -----------
+
+\section{Skills}
+  \vspace{2pt}
+  \resumeSubHeadingListStart
+    \small{\item{
+
+  
+    \textbf{languages:}{ Python, C, HTML/CSS} \ \vspace{3pt}
+
+    \textbf{Technical Skills:}{ 1. Cloud Computing: AWS, Microsoft Azure.
+2. DevOps Tools: Docker, Kubernetes, Jenkins, GitHub Actions.
+3. UI/UX Design: HTML, CSS, JavaScript, Figma, Adobe XD, Responsive Design Principles.
+
+} \ \vspace{3pt}
+
+    \textbf{ Tools & Technologies:}{ Microsoft Excel} \ \vspace{3pt}
+
+    \textbf{Soft Skills:}{ 1. Collaboration & Teamwork.
+2. Adaptability & Quick Learning.
+3. Communication Skills
+
+
+
+
+} \ \vspace{3pt}
+
+}}
+\resumeSubHeadingListEnd
+
+
+%-------------------------------------------
+\end{document}
